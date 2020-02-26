@@ -22,9 +22,13 @@ func main() {
 	// r, im := real(c), imag(c)
 	// fmt.Println(r, im)
 
-	var firstName *string = new(string)
+	// var firstName *string = new(string)
+	// *firstName = "Anthony"
+	// fmt.Println(*firstName)
 
-	*firstName = "Anthony"
+	firstName := "Anthony"
+	fmt.Println(firstName)
 
-	fmt.Println(*firstName)
+	ptr := &firstName
+	fmt.Println(ptr, *ptr)
 }
