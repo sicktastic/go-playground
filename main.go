@@ -26,12 +26,22 @@ func main() {
 	// *firstName = "Anthony"
 	// fmt.Println(*firstName)
 
-	firstName := "Anthony"
-	fmt.Println(firstName)
+	// firstName := "Anthony"
+	// fmt.Println(firstName)
 
-	ptr := &firstName
-	fmt.Println(ptr, *ptr)
+	// ptr := &firstName
+	// fmt.Println(ptr, *ptr)
 
-	firstName = "Chey"
-	fmt.Println(ptr, *ptr)
+	// firstName = "Chey"
+	// fmt.Println(ptr, *ptr)
+
+	// Constants
+
+	const pi = 3.1415
+	fmt.Println(pi)
+
+	const c int = 3
+	fmt.Println(c + 3)
+
+	fmt.Println(float32(c) + 1.2)
 }
